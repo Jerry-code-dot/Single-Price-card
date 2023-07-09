@@ -1,0 +1,101 @@
+html{
+    font-size: 16px;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    padding: 20px;
+}
+#card{
+    font-size: 16px;
+    width: 700px;
+    height: 500px;
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+#top-section{
+    font-size: 1.2rem;
+    width: 100%;
+    height: 45%;
+    padding: 25px;
+  
+}
+#bottom-section{
+    font-size: 1.2rem;
+    display: flex;
+    width: 100%;
+    height: 55%;
+    color: white;
+}
+#bottom-left{
+    flex: 1 1 30;
+    width: 50%;
+    height: 100%;
+    background-color: #2ab2af;
+    padding: 25px;
+}
+#bottom-right{
+    flex: 1 1 30;
+    width: 50%;
+    height: 100%;
+    background-color: #2ebfbd;
+    padding: 25px;
+}
+#bottom-right ul{
+    list-style-type: none;
+    padding: 0px;
+    font-size: 1rem;
+    opacity: 0.8;
+    
+
+}
+button{
+    font-size: 1.2rem ;
+    color: white ;
+    background-color: #c0df34;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+button:hover{
+    background-color: #a9c42d;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+#top-section h2{
+    color: #2ab2af;
+    margin-bottom: 15px;
+}
+#top-section h4{
+    color: #c0df34;
+    margin-bottom: 10px;
+}
+#top-section p{
+    color: #98a6bd;
+}
+#price-fee{
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+#bottom-left h4{
+    margin-bottom: 25px;
+}
+#bottom-left p{
+    margin-bottom: 25px;
+    font-size: 0.8rem;
+}
+#price-container{
+    display: flex;
+    flex: 1 1 30;
+}
+#price-frequency{
+    opacity: 0.7;
+    padding-left: 5px;
+    padding-top: 0px;
+}
